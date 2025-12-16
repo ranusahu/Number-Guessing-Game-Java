@@ -12,7 +12,7 @@ public class NumberGuessingGame {
         int guess;
         int attempts = 0;
 
-        System.out.println("🎯 Welcome to Number Guessing Game!");
+        System.out.println(" Welcome to Number Guessing Game!");
         System.out.println("Guess a number between 1 and 100");
 
         while (true) {
@@ -21,10 +21,10 @@ public class NumberGuessingGame {
             attempts++;
 
             if (guess < randomNumber) {
-                System.out.println("Too Low ❌");
+                System.out.println("Too Low ");
             } 
             else if (guess > randomNumber) {
-                System.out.println("Too High ❌");
+                System.out.println("Too High ");
             } 
             else {
                 System.out.println("🎉 Correct! You guessed the number.");
@@ -36,3 +36,4 @@ public class NumberGuessingGame {
         sc.close();
     }
 }
+
